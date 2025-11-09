@@ -8,6 +8,7 @@ int main(){
 		arr[i]=arr[i+1];
 	}
 	n--;
-	cout<<"After deletion: ";
+	cout<<"After deletion the element at a specific position: ";
 	for(int i=0; i<n; i++) cout<<arr[i]<<" ";
 }
+
